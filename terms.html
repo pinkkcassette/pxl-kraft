@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Conditions — PXL Kraft</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #020203;
+      --accent: #D4520A;
+      --accent2: #E8A838;
+      --border: rgba(255,255,255,0.07);
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Geist', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg); color: #fff; line-height: 1.8;
+    }
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 22px 48px;
+      background: rgba(2,2,3,0.9); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-pixel {
+      display: grid; grid-template-columns: repeat(3,5px);
+      grid-template-rows: repeat(3,5px); gap: 2px;
+    }
+    .nav-pixel span { width: 5px; height: 5px; background: var(--accent); display: block; }
+    .nav-pixel span:nth-child(2), .nav-pixel span:nth-child(4),
+    .nav-pixel span:nth-child(6), .nav-pixel span:nth-child(8) { background: var(--accent2); }
+    .nav-pixel span:nth-child(5) { background: rgba(255,255,255,0.35); }
+    .brand-name {
+      font-family: 'Space Mono', monospace; font-size: 14px; font-weight: 700;
+      color: #fff; letter-spacing: 2px; text-transform: uppercase;
+    }
+    .back-link {
+      font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--accent); border: 1.5px solid var(--accent);
+      padding: 8px 18px; text-decoration: none;
+      transition: background .3s, color .3s;
+    }
+    .back-link:hover { background: var(--accent); color: #fff; }
+
+    .page-container {
+      max-width: 800px; margin: 0 auto;
+      padding: 140px 48px 100px;
+    }
+    .page-label {
+      font-family: 'Space Mono', monospace; font-size: 13px; font-weight: 700;
+      color: var(--accent); letter-spacing: 3px; text-transform: uppercase;
+      margin-bottom: 24px; display: flex; align-items: center; gap: 14px;
+    }
+    .page-label::before { content: ''; display: block; width: 24px; height: 2px; background: var(--accent); }
+    .page-title {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(36px, 5vw, 56px); font-weight: 400;
+      color: #fff; line-height: 1.1; margin-bottom: 16px;
+    }
+    .page-updated {
+      font-family: 'Space Mono', monospace; font-size: 11px;
+      color: rgba(255,255,255,.35); letter-spacing: 1px; text-transform: uppercase;
+      margin-bottom: 60px; padding-bottom: 40px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 28px; font-weight: 400; color: rgba(255,255,255,.92);
+      margin: 48px 0 16px; line-height: 1.2;
+    }
+    h2:first-of-type { margin-top: 0; }
+    p { font-size: 15px; color: rgba(255,255,255,.55); margin-bottom: 20px; }
+    ul { padding-left: 24px; margin-bottom: 20px; }
+    li { font-size: 15px; color: rgba(255,255,255,.55); margin-bottom: 8px; }
+    a { color: var(--accent); }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 48px; text-align: center;
+      font-family: 'Space Mono', monospace; font-size: 11px;
+      color: rgba(255,255,255,.25); letter-spacing: 1px;
+    }
+    @media (max-width: 768px) {
+      nav { padding: 14px 20px; }
+      .page-container { padding: 120px 20px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-brand">
+    <div class="nav-pixel"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    <span class="brand-name">PXL Kraft</span>
+  </a>
+  <a href="/" class="back-link">Back to Home</a>
+</nav>
+
+<div class="page-container">
+  <p class="page-label">Legal</p>
+  <h1 class="page-title">Terms & Conditions</h1>
+  <p class="page-updated">Last updated: April 13, 2026</p>
+
+  <h2>1. Acceptance of Terms</h2>
+  <p>By accessing or using the PXL Kraft website and services, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use our services.</p>
+
+  <h2>2. Description of Services</h2>
+  <p>PXL Kraft provides AI automation, intelligent workflow systems, and consulting services for businesses across manufacturing, e-commerce, and health & wellness sectors. Our services include but are not limited to:</p>
+  <ul>
+    <li>Custom AI solution design and development</li>
+    <li>Workflow automation and optimization</li>
+    <li>Predictive analytics and quality control systems</li>
+    <li>Strategy consultation and discovery sessions</li>
+    <li>Post-deployment support and model retraining</li>
+  </ul>
+
+  <h2>3. Engagement & Project Scope</h2>
+  <p>All project engagements begin with a discovery call to assess requirements. Specific deliverables, timelines, and pricing will be outlined in a separate Statement of Work (SOW) or service agreement before any project commences.</p>
+
+  <h2>4. Intellectual Property</h2>
+  <p>All content on this website, including text, graphics, logos, code, and design elements, is the property of PXL Kraft and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works without our prior written consent.</p>
+  <p>Upon project completion and full payment, clients receive ownership of custom-built solutions as outlined in their specific service agreement.</p>
+
+  <h2>5. Client Responsibilities</h2>
+  <p>When engaging our services, you agree to:</p>
+  <ul>
+    <li>Provide accurate and complete information necessary for project execution</li>
+    <li>Grant timely access to required data, systems, and stakeholders</li>
+    <li>Review and provide feedback on deliverables within agreed timelines</li>
+    <li>Ensure compliance with applicable data protection regulations for any data shared with us</li>
+  </ul>
+
+  <h2>6. Confidentiality</h2>
+  <p>Both parties agree to maintain the confidentiality of proprietary information shared during the course of any engagement. This includes business data, technical specifications, trade secrets, and any information marked as confidential. This obligation survives the termination of any agreement.</p>
+
+  <h2>7. Payment Terms</h2>
+  <p>Payment terms, including pricing, milestones, and schedules, will be specified in the applicable service agreement. Unless otherwise stated, invoices are due within 30 days of issuance. Late payments may incur additional charges as outlined in the service agreement.</p>
+
+  <h2>8. Limitation of Liability</h2>
+  <p>To the fullest extent permitted by law, PXL Kraft shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from or relating to the use of our services, including but not limited to loss of profits, data, or business opportunities.</p>
+  <p>Our total liability for any claim arising from our services shall not exceed the total fees paid by you for the specific service giving rise to the claim.</p>
+
+  <h2>9. Warranties & Disclaimers</h2>
+  <p>Our services are provided on an "as-is" basis. While we strive for excellence and stand behind our work, we do not guarantee that AI models will achieve specific accuracy rates or business outcomes, as results depend on data quality, implementation context, and external factors.</p>
+
+  <h2>10. Termination</h2>
+  <p>Either party may terminate a service engagement with written notice as specified in the applicable service agreement. Upon termination, you remain responsible for payment of all services rendered up to the termination date.</p>
+
+  <h2>11. Governing Law</h2>
+  <p>These Terms and Conditions shall be governed by and construed in accordance with the applicable laws of the jurisdiction in which PXL Kraft operates, without regard to its conflict of law provisions.</p>
+
+  <h2>12. Changes to These Terms</h2>
+  <p>We reserve the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting to this page. Your continued use of our services after any modifications constitutes acceptance of the updated terms.</p>
+
+  <h2>13. Contact</h2>
+  <p>For questions about these Terms and Conditions, please reach out by booking a <a href="https://calendly.com/pxlkraftt/discovery-call" target="_blank">discovery call</a> or contacting us through our website.</p>
+</div>
+
+<footer>
+  &copy; 2026 PXL Kraft. All rights reserved.
+</footer>
+
+</body>
+</html>
